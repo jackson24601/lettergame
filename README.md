@@ -18,6 +18,13 @@ Then open <http://localhost:4173>.
 npm run check
 ```
 
+## Test on GitHub Pages
+
+After this branch is merged, open the repository on GitHub and go to
+**Settings > Pages**. Set **Build and deployment > Source** to **GitHub Actions**.
+The included Pages workflow will publish the static game whenever `main` is
+updated. You can also run it manually from **Actions > Deploy GitHub Pages**.
+
 ## Gameplay
 
 - Steer falling letter blocks with the on-screen buttons or keyboard.
