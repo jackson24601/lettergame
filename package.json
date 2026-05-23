@@ -1,0 +1,10 @@
+{
+  "name": "lettergame",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An ocean-themed falling letter matching game for early learners.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "check": "node --check game.js"
+  }
+}
