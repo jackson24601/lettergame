@@ -25,6 +25,16 @@ After this branch is merged, open the repository on GitHub and go to
 The included Pages workflow will publish the static game whenever `main` is
 updated. You can also run it manually from **Actions > Deploy GitHub Pages**.
 
+## Package for iOS with Xcode
+
+Open `ios/LetterLagoon/LetterLagoon.xcodeproj` in Xcode to run the game as a
+native iPhone/iPad app. The project wraps the bundled static game in a SwiftUI
+`WKWebView` and includes generated app icon assets. Before distributing, set
+your Apple Developer Team and replace the placeholder bundle identifier in the
+`LetterLagoon` target.
+
+See [`ios/README.md`](ios/README.md) for App Store packaging steps.
+
 ## Gameplay
 
 - Steer falling letter blocks with the on-screen buttons or keyboard.
